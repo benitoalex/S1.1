@@ -1,0 +1,42 @@
+*{
+    max-width: 1200px;
+}
+
+.flex-container {
+    flex-direction: column;
+    width: 1200px;
+    display: flex;
+    background-color: black;
+  }
+.flex-item {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    margin: 10px;
+    height: 50px;
+}
+.flex-item1 {
+    background-color: red;
+    width: 200px;
+    margin: 15px; 
+}
+.flex-item2 {
+    background-color: red;
+    width: 200px;
+    margin: 15px; 
+    flex: 1;
+}
+.flex-itemA {
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+    margin: 10px;
+    height: 50px;
+}
+.flex-item3 {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    margin: 10px;
+    height: 50px;
+}
