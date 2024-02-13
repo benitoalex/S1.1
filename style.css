@@ -12,9 +12,14 @@
     margin-top: 20px;
     width: 1200px;
     display: flex;
+    background-color: rgb(216, 235, 8);
+}
+.flex-container3 {
+    margin-top: 20px;
+    width: 1200px;
+    display: flex;
     background-color: black;
 }
-
 .flex-item {
     display: flex;
     background-color: rgb(60, 63, 93);
@@ -103,4 +108,45 @@
     width: 1200px;
     margin: 15px; 
     height: 30px;
+}
+.flex-container,
+.flex-container2,
+.flex-container3 {
+    width: 100%;
+}
+
+.flex-item3,
+.flex-item11 {
+    width: 100%;
+}
+
+.flex-item4 {
+    width: 100%;
+}
+
+.flex-item8 {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .flex-container,
+    .flex-container2,
+    .flex-container3 {
+        width: 768px;
+    }
+
+    .flex-item1,
+    .flex-item2,
+    .flex-item3,
+    .flex-item4,
+    .flex-item5,
+    .flex-item6,
+    .flex-item7,
+    .flex-item8,
+    .flex-item9,
+    .flex-item10,
+    .flex-item11 {
+        width: 100%;
+    }
+    
 }
