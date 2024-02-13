@@ -128,7 +128,35 @@
     width: 100%;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    *{
+        background-color: rgb(251, 205, 119);
+    }
+    .flex-container,
+    .flex-container2,
+    .flex-container3 {
+        width: 768px;
+    }
+
+    .flex-item1,
+    .flex-item2,
+    .flex-item3,
+    .flex-item4,
+    .flex-item5,
+    .flex-item6,
+    .flex-item7,
+    .flex-item8,
+    .flex-item9,
+    .flex-item10,
+    .flex-item11 {
+        width: 100%;
+    }
+}
+
 @media only screen and (max-width: 767px) {
+    *{
+        background-color: rgb(183, 235, 250);
+    }
     .flex-container,
     .flex-container2,
     .flex-container3 {
