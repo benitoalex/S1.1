@@ -128,11 +128,11 @@
     width: 100%;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (max-width: 767px) {
     .flex-container,
     .flex-container2,
     .flex-container3 {
-        width: 768px;
+        width: 100%;
     }
 
     .flex-item1,
@@ -148,5 +148,4 @@
     .flex-item11 {
         width: 100%;
     }
-    
 }
